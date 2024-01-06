@@ -1,0 +1,23 @@
+#count{
+    display: block;
+    text-align: center;
+    font-size: 50;
+}
+
+#increase{
+    text-align: center;
+    align-items: center;
+    font-size: 50;
+    background-color: cadetblue;
+}
+#decrease{
+    text-align: center;
+    align-items: center;
+    font-size: 50;
+    background-color: crimson;
+}
+#reset{
+    text-align: center;
+    align-items: center;
+    font-size: 50;
+}
