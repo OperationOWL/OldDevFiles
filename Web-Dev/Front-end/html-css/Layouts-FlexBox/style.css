@@ -1,0 +1,20 @@
+Body{
+    background: rgb(6, 19, 44);
+}
+
+.FlexLayout{
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row; 
+    /* fle direction defines the direction of growth */
+    flex-wrap: wrap;
+}
+
+.FlexLayout div{
+    background-color: rgb(230, 111, 0);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px;
+    flex-basis: 200px
+}

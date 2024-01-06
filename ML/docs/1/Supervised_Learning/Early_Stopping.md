@@ -1,0 +1,1 @@
+Early stopping is another technique that can be used to prevent overfitting. With early stopping, the training process is stopped before the model has a chance to fully fit the training data. This is typically done by monitoring the performance of the model on a validation set, and stopping the training process when the validation error stops improving.

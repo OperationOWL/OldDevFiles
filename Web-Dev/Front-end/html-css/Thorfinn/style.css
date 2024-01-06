@@ -1,0 +1,17 @@
+.heading{
+    background-color: peachpuff;
+    font-family: "Courier New";
+}
+
+.info{
+    background-color: peachpuff;
+    font-family: "Courier New";
+}
+
+.round{
+    border-radius: 35%;
+}
+
+body{
+    background-color: skyblue;
+}

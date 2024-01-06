@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+html{
+    background-image: url("pond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav {
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: white;
+    font-family: "Roboto";
+    font-size: small;
+    padding: 10px;
+}
+
+nav ul{
+    padding: 7px;
+    margin: 5px
+}
+
+.footer{
+    padding-top: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#mainBody{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#google{
+    background-image: url("Google.png");
+    height: 120px;
+    width: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#searchBox{
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.700);
+    margin: 20px;
+    font-family: "Roboto";
+    font-size: larger;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#search{
+    width: 600px;
+    height: 50px;
+    margin: 20px;
+    font-family: "Roboto";
+    font-size: large;
+    justify-content: center;
+    color: rgb(104, 104, 104);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#plusCircle{
+    background: rgba(0, 32, 32, 0.607);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#plus{
+    color: rgba(245, 245, 245, 0.653);
+    font-size: 40px;
+}

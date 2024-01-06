@@ -1,0 +1,5 @@
+Overfitting occurs when a machine learning model is too complex and starts to fit the training data too closely, at the expense of generalizing well to new, unseen data. Essentially, the model becomes too specialized to the training data and starts to capture noise or irrelevant features in the data, instead of the underlying patterns or relationships.
+
+Overfitting is a common problem in machine learning and can be a major obstacle to building models that can generalize well to new data. To prevent overfitting, it is important to use techniques such as regularization or early stopping.
+
+preventing overfitting is important for building models that can generalize well to new, unseen data. By using techniques such as [[Regularization]] and [[Early_Stopping]], we can help to ensure that our models are not overly specialized to the training data, and can perform well on new, unseen data.
